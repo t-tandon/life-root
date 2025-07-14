@@ -1,0 +1,31 @@
+# Step 1: Obtain alignments
+
+## Extract COG Ids 
+```bash
+  wget https://ftp.ncbi.nlm.nih.gov/pub/COG/COG2024/data/cog-24.cog.csv
+  grep COG0055 cog-24.cog.csv | cut -d',' -f3 > COG0055.ids
+  grep COG0056 cog-24.cog.csv | cut -d',' -f3 > COG0056.ids
+
+
+## Extract Sequences 
+wget https://ftp.ncbi.nlm.nih.gov/pub/COG/COG2024/data/COGorg24.faa.gz
+gunzip COGorg24.faa.gz
+
+## Extract Sequences based on ID
+  seqtk subseq COGorg24.faa COG0055.ids > COG0055.ids.faa
+  seqtk subseq COGorg24.faa COG0056.ids > COG0056.ids.faa
+
+## Remove redundant sequences
+  cd-hit -i COG0056.ids.faa -o COG0056.nr.faa -c 0.7 
+  cd-hit -i COG0055.ids.faa -o COG0055.nr.faa -c 0.7
+
+## Align with MAFFT linsi 
+  mafft-linsi COG0056.nr.faa > COG0056.faa.aligned
+  mafft-linsi COG0055.nr.faa > COG0055.faa.aligned
+
+## Optional: Visualize with alan_dt
+  ~/alan_dt COG0055.faa.aligned
+  ~/alan_dt COG0056.faa.aligned
+
+  
+
