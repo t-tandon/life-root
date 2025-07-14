@@ -22,4 +22,4 @@ Due to file size limitations, **some raw data files are not included in the repo
   ```bash
   wget https://data.gtdb.ecogenomic.org/releases/release214/214.0/bac120_metadata.tsv 
   wget https://data.gtdb.ecogenomic.org/releases/release214/214.0/ar53_metadata.tsv 
-
+Note that these files must be filtered by >90% completeness and <5% contamination to obtain high-quality representative genomes. 
