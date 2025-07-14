@@ -1,7 +1,8 @@
 # Raw Data
+This folder contains the **raw input data** used for rooting the tree of life using ancient gene duplications (ATP synthase subunits, COG0055 and COG0056). 
 Due to file size limitations, **raw data files are not included in the repository**. Please follow the instructions below to manually download them.
 
-### 1. COG Database (2024 Release)
+1. COG Database (2024 Release)
 - **Files needed**:
   - `COGorg-2024.faa` – All protein sequences
   - `cog-20.cog.csv` – Functional annotations
