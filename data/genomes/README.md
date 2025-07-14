@@ -1,6 +1,6 @@
 # Predicted Proteins
 
-This folder contains renamed Prodigal-predicted protein-coding genes from representative bacterial and archaeal genomes.
+This folder contains examples of renamed Prodigal-predicted protein-coding gene files due to size restrictions. 
 
 ### Tools Used
 
