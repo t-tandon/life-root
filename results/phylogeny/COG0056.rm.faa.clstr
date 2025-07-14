@@ -1,0 +1,436 @@
+>Cluster 0
+0	1023aa, >Archaea_EX4484-217-... *
+>Cluster 1
+0	681aa, >Bacteria_DUMJ01|JAC... *
+>Cluster 2
+0	630aa, >Bacteria_Tectomicro... *
+>Cluster 3
+0	592aa, >Bacteria_Blakebacte... *
+>Cluster 4
+0	588aa, >Archaea_JACQPN01|JB... *
+>Cluster 5
+0	561aa, >Bacteria_4572-55|RF... *
+>Cluster 6
+0	552aa, >Bacteria_JBFMHD01|J... *
+>Cluster 7
+0	551aa, >Bacteria_4484-113|J... *
+>Cluster 8
+0	546aa, >Bacteria_Actinomyce... *
+>Cluster 9
+0	459aa, >Archaea_Aciduliprof... at 76.47%
+1	455aa, >Archaea_Alkanophaga... at 73.41%
+2	461aa, >Archaea_Anstonellal... at 70.72%
+3	468aa, >Archaea_DAOVMN01|DA... at 76.92%
+4	462aa, >Archaea_DAOWMC01|JA... at 74.68%
+5	466aa, >Archaea_DHVEG-1|JAP... at 78.54%
+6	464aa, >Archaea_EX4484-6|JA... at 76.29%
+7	540aa, >Archaea_GCA-0028389... *
+8	462aa, >Archaea_GCA-0203508... at 75.11%
+9	451aa, >Archaea_Halarchaeop... at 76.27%
+10	470aa, >Archaea_JAEHCK01|JA... at 77.02%
+11	461aa, >Archaea_JAKEGO01|JA... at 73.54%
+12	493aa, >Archaea_JASLWR01|JA... at 72.82%
+13	463aa, >Archaea_Methanobact... at 73.43%
+14	463aa, >Archaea_Methanococc... at 71.49%
+15	463aa, >Archaea_Methanolipa... at 74.30%
+16	475aa, >Archaea_Methanonatr... at 70.95%
+17	473aa, >Archaea_Methanopyra... at 72.94%
+18	465aa, >Archaea_Syntropharc... at 73.98%
+19	464aa, >Archaea_Thermococca... at 74.14%
+20	470aa, >Archaea_UBA148|CP01... at 74.04%
+21	456aa, >Archaea_UBA202|JAYE... at 76.10%
+22	469aa, >Archaea_WALJ01|JAJR... at 77.19%
+23	457aa, >Archaea_WALL01|JAGG... at 71.77%
+>Cluster 10
+0	536aa, >Bacteria_Mcinerneyi... *
+>Cluster 11
+0	532aa, >Bacteria_JAJVIF01|J... *
+>Cluster 12
+0	505aa, >Bacteria_BMS3Abin14... at 71.68%
+1	508aa, >Bacteria_CSSED10-31... at 70.08%
+2	529aa, >Bacteria_JADFOP01|J... *
+3	508aa, >Bacteria_Methylomir... at 71.46%
+4	504aa, >Bacteria_Moduliflex... at 76.39%
+5	502aa, >Bacteria_Nitrospino... at 70.52%
+6	505aa, >Bacteria_Schekmanba... at 74.26%
+7	518aa, >Bacteria_UBA9089|JB... at 70.66%
+8	503aa, >Bacteria_Zhuqueibac... at 71.17%
+>Cluster 13
+0	525aa, >Bacteria_Bacteroido... *
+>Cluster 14
+0	525aa, >Bacteria_JABMQX01|J... *
+>Cluster 15
+0	522aa, >Bacteria_Gemmatimon... *
+>Cluster 16
+0	521aa, >Bacteria_Chloroflex... *
+>Cluster 17
+0	520aa, >Bacteria_Muiribacte... *
+>Cluster 18
+0	519aa, >Bacteria_Bacteroido... *
+1	506aa, >Bacteria_Calditrich... at 73.72%
+2	508aa, >Bacteria_CLD3|JABWC... at 72.24%
+>Cluster 19
+0	515aa, >Bacteria_JAUXIB01|J... *
+>Cluster 20
+0	508aa, >Bacteria_JAGRBM01|J... at 71.06%
+1	511aa, >Bacteria_JALSQH01|J... at 71.04%
+2	502aa, >Bacteria_JAWLBW01|J... at 70.92%
+3	502aa, >Bacteria_JBBIVP01|J... at 70.12%
+4	515aa, >Bacteria_Myxococcot... *
+>Cluster 21
+0	514aa, >Bacteria_SZUA-182|J... *
+>Cluster 22
+0	514aa, >Bacteria_Verrucomic... *
+>Cluster 23
+0	513aa, >Bacteria_CAIWAD01|O... *
+>Cluster 24
+0	513aa, >Bacteria_Pseudomona... *
+>Cluster 25
+0	512aa, >Bacteria_Abyssobact... *
+>Cluster 26
+0	512aa, >Bacteria_Lernaellot... *
+>Cluster 27
+0	501aa, >Bacteria_Bdellovibr... at 70.26%
+1	512aa, >Bacteria_Myxococcot... *
+>Cluster 28
+0	511aa, >Bacteria_Acidobacte... *
+1	501aa, >Bacteria_Desulfobac... at 71.46%
+>Cluster 29
+0	511aa, >Bacteria_Dictyoglom... *
+>Cluster 30
+0	502aa, >Bacteria_Hinthialib... at 70.12%
+1	511aa, >Bacteria_Omnitropho... *
+2	502aa, >Bacteria_UBP15|JAKQ... at 70.32%
+3	504aa, >Bacteria_UBP4|JAOAE... at 74.60%
+>Cluster 31
+0	502aa, >Bacteria_JAUVQV01|J... at 71.12%
+1	511aa, >Bacteria_UBA8248|JA... *
+>Cluster 32
+0	510aa, >Bacteria_DRYD01|JAU... *
+>Cluster 33
+0	510aa, >Bacteria_Hydrogened... *
+>Cluster 34
+0	510aa, >Bacteria_JAAXHH01|V... *
+>Cluster 35
+0	510aa, >Bacteria_Poribacter... *
+>Cluster 36
+0	509aa, >Bacteria_ARS69|JASL... *
+1	509aa, >Bacteria_Planctomyc... at 70.14%
+>Cluster 37
+0	508aa, >Bacteria_Armatimona... *
+>Cluster 38
+0	502aa, >Bacteria_CG2-30-53-... at 72.71%
+1	507aa, >Bacteria_CG2-30-70-... *
+2	505aa, >Bacteria_Nitrospiro... at 71.68%
+>Cluster 39
+0	507aa, >Bacteria_Marinisoma... *
+>Cluster 40
+0	507aa, >Bacteria_UBP13|JAQU... *
+>Cluster 41
+0	506aa, >Bacteria_Bdellovibr... *
+>Cluster 42
+0	506aa, >Bacteria_CAKKQC01|C... *
+>Cluster 43
+0	506aa, >Bacteria_Cyanobacte... *
+>Cluster 44
+0	506aa, >Bacteria_Firestoneb... *
+>Cluster 45
+0	502aa, >Bacteria_Desulfobac... at 71.91%
+1	502aa, >Bacteria_JAJRZV01|J... at 70.92%
+2	506aa, >Bacteria_JAMCPX01|J... *
+>Cluster 46
+0	461aa, >Archaea_Burarchaeal... at 79.18%
+1	460aa, >Archaea_Conexivisph... at 70.22%
+2	470aa, >Archaea_Fermentimic... at 79.79%
+3	468aa, >Archaea_Gugararchae... at 79.06%
+4	462aa, >Archaea_Iainarchaea... at 79.00%
+5	505aa, >Archaea_JACRGF01|JA... *
+6	461aa, >Archaea_JAKAKT01|JB... at 79.83%
+7	403aa, >Archaea_JBFMAP01|JB... at 82.63%
+8	466aa, >Archaea_Methanosarc... at 76.18%
+9	461aa, >Archaea_Norongarrag... at 74.62%
+>Cluster 47
+0	505aa, >Bacteria_Bdellovibr... *
+1	503aa, >Bacteria_Desulfobac... at 71.57%
+2	503aa, >Bacteria_RBG-13-61-... at 70.18%
+>Cluster 48
+0	502aa, >Bacteria_CALINM01|J... at 70.92%
+1	505aa, >Bacteria_Desulfobac... *
+2	504aa, >Bacteria_DYJV01|DYJ... at 70.04%
+>Cluster 49
+0	505aa, >Bacteria_Latescibac... *
+>Cluster 50
+0	505aa, >Bacteria_Sumerlaeot... *
+>Cluster 51
+0	505aa, >Bacteria_Thermotogo... *
+>Cluster 52
+0	505aa, >Bacteria_UBA8481|RF... *
+>Cluster 53
+0	505aa, >Bacteria_UBP7|JBBIM... *
+>Cluster 54
+0	504aa, >Bacteria_Auribacter... *
+>Cluster 55
+0	504aa, >Bacteria_Campylobac... *
+>Cluster 56
+0	504aa, >Bacteria_Cloacimona... *
+>Cluster 57
+0	504aa, >Bacteria_GCA-001730... *
+>Cluster 58
+0	504aa, >Bacteria_Lindowbact... *
+>Cluster 59
+0	504aa, >Bacteria_Margulisba... *
+>Cluster 60
+0	504aa, >Bacteria_Orphanbact... *
+>Cluster 61
+0	504aa, >Bacteria_Thermodesu... *
+>Cluster 62
+0	503aa, >Bacteria_Aquificota... *
+>Cluster 63
+0	503aa, >Bacteria_Chrysiogen... *
+1	503aa, >Bacteria_Desulfobac... at 70.78%
+2	502aa, >Bacteria_UBA10199|M... at 70.92%
+>Cluster 64
+0	503aa, >Bacteria_Elusimicro... *
+>Cluster 65
+0	503aa, >Bacteria_JAAXVQ01|J... *
+>Cluster 66
+0	503aa, >Bacteria_SZUA-79|JA... *
+>Cluster 67
+0	503aa, >Bacteria_UBA2233|WO... *
+>Cluster 68
+0	502aa, >Bacteria_Eisenbacte... at 71.51%
+1	503aa, >Bacteria_Zixibacter... *
+>Cluster 69
+0	502aa, >Archaea_Altiarchaea... *
+1	459aa, >Archaea_IMC4|JAWAEV... at 71.02%
+>Cluster 70
+0	502aa, >Bacteria_B130-G9|DA... *
+>Cluster 71
+0	502aa, >Bacteria_Bipolarica... *
+>Cluster 72
+0	502aa, >Bacteria_Desulfobac... *
+>Cluster 73
+0	502aa, >Bacteria_Desulfobac... *
+>Cluster 74
+0	502aa, >Bacteria_Electryone... *
+>Cluster 75
+0	502aa, >Bacteria_Goldbacter... *
+>Cluster 76
+0	502aa, >Bacteria_JADJOY01|J... *
+>Cluster 77
+0	502aa, >Bacteria_JAPLJL01|J... *
+>Cluster 78
+0	502aa, >Bacteria_Nitrospiro... *
+1	502aa, >Bacteria_Thermosulf... at 70.12%
+>Cluster 79
+0	502aa, >Bacteria_SAR324|JAQ... *
+>Cluster 80
+0	501aa, >Bacteria_FCPU426|PL... *
+>Cluster 81
+0	501aa, >Bacteria_JAJYCY01|J... *
+>Cluster 82
+0	501aa, >Bacteria_Krumholzib... *
+>Cluster 83
+0	500aa, >Archaea_Atabeyarcha... *
+1	474aa, >Archaea_Baldrarchae... at 72.36%
+2	464aa, >Archaea_Borrarchaea... at 71.77%
+3	466aa, >Archaea_Jordiarchae... at 76.39%
+4	468aa, >Archaea_Odinarchaea... at 74.36%
+5	472aa, >Archaea_RBG-16-48-1... at 70.34%
+>Cluster 84
+0	500aa, >Bacteria_Fusobacter... *
+>Cluster 85
+0	500aa, >Bacteria_Nitrospiro... *
+>Cluster 86
+0	499aa, >Bacteria_Babelota|C... *
+>Cluster 87
+0	499aa, >Bacteria_Bacillota|... *
+>Cluster 88
+0	499aa, >Bacteria_Vulcanimic... *
+>Cluster 89
+0	493aa, >Bacteria_Coprotherm... *
+>Cluster 90
+0	474aa, >Archaea_Archaeoglob... at 72.57%
+1	468aa, >Archaea_Bog-38|JACT... at 77.99%
+2	469aa, >Archaea_DTKX01|JBGP... at 77.83%
+3	468aa, >Archaea_EX4484-52|J... at 73.08%
+4	473aa, >Archaea_JACPAO01|JB... at 71.04%
+5	461aa, >Archaea_JACQPP01|JA... at 79.39%
+6	489aa, >Archaea_JAHFTX01|JA... *
+7	461aa, >Archaea_JAJSAE01|JA... at 76.57%
+8	474aa, >Archaea_JAWCLZ01|JB... at 74.47%
+9	459aa, >Archaea_JBBABA01|JB... at 80.17%
+10	463aa, >Archaea_Methanocell... at 77.32%
+11	460aa, >Archaea_Methanomass... at 71.74%
+12	463aa, >Archaea_Methanomicr... at 77.11%
+13	459aa, >Archaea_Methanosarc... at 77.34%
+14	461aa, >Archaea_Methanotric... at 72.23%
+15	460aa, >Archaea_MGIII|JASLZ... at 77.39%
+16	467aa, >Archaea_Mnemosynell... at 77.30%
+17	398aa, >Archaea_RBG-16-68-1... at 72.61%
+18	465aa, >Archaea_SG8-5|JAEHC... at 71.83%
+19	477aa, >Archaea_SW-10-69-26... at 70.86%
+20	459aa, >Archaea_UBA10834|JA... at 76.91%
+21	466aa, >Archaea_Undinarchae... at 70.17%
+22	464aa, >Archaea_VGTL01|JAWC... at 77.16%
+23	477aa, >Archaea_Woesearchae... at 72.75%
+>Cluster 91
+0	486aa, >Archaea_JABLTI01|JA... *
+>Cluster 92
+0	486aa, >Bacteria_UBA6266|JA... *
+>Cluster 93
+0	480aa, >Archaea_Heimdallarc... *
+>Cluster 94
+0	479aa, >Archaea_Hadarchaeal... *
+1	464aa, >Archaea_Hydrotherma... at 70.69%
+2	462aa, >Archaea_JALTZZ01|JA... at 72.29%
+>Cluster 95
+0	471aa, >Archaea_B24|JAGHAZ0... at 73.46%
+1	471aa, >Archaea_Gearchaeale... at 70.70%
+2	472aa, >Archaea_Geothermarc... at 70.34%
+3	479aa, >Archaea_QMSL01|QMSP... *
+4	472aa, >Archaea_Thermofilal... at 73.73%
+>Cluster 96
+0	477aa, >Archaea_Hermodarcha... *
+>Cluster 97
+0	477aa, >Archaea_Hodarchaeal... *
+>Cluster 98
+0	461aa, >Archaea_Marsarchaea... at 72.89%
+1	460aa, >Archaea_Sysuiplasma... at 70.22%
+2	477aa, >Archaea_UBA184|JAKA... *
+>Cluster 99
+0	477aa, >Archaea_Wukongarcha... *
+>Cluster 100
+0	475aa, >Archaea_DRAE01|DRAE... *
+>Cluster 101
+0	475aa, >Bacteria_Ratteibact... *
+>Cluster 102
+0	474aa, >Archaea_Culexarchae... *
+1	468aa, >Archaea_Nezhaarchae... at 76.28%
+>Cluster 103
+0	471aa, >Bacteria_Deinococco... at 71.55%
+1	470aa, >Bacteria_Edwardsbac... at 75.11%
+2	469aa, >Bacteria_JACPWU01|J... at 75.91%
+3	426aa, >Bacteria_JANLFM01|J... at 76.53%
+4	474aa, >Bacteria_Sysuimicro... *
+>Cluster 104
+0	473aa, >Bacteria_AUK180|JAG... *
+1	464aa, >Bacteria_Fermentiba... at 71.12%
+2	457aa, >Bacteria_JAFGND01|J... at 71.33%
+3	459aa, >Bacteria_JAHJDO01|J... at 72.55%
+4	461aa, >Bacteria_Joyebacter... at 70.50%
+5	456aa, >Bacteria_NPL-UPA2|J... at 73.03%
+6	473aa, >Bacteria_RBG-13-66-... at 71.04%
+7	468aa, >Bacteria_TA06|SOJN0... at 70.94%
+8	394aa, >Bacteria_UBA6262|JA... at 71.07%
+9	458aa, >Bacteria_WOR-3|LGFX... at 71.62%
+>Cluster 105
+0	472aa, >Archaea_Halobacteri... *
+1	472aa, >Archaea_Halorutilal... at 78.60%
+>Cluster 106
+0	468aa, >Archaea_Hecatellale... at 77.78%
+1	467aa, >Archaea_JACIWG01|JA... at 70.24%
+2	472aa, >Archaea_JAPDIZ01|JA... *
+>Cluster 107
+0	465aa, >Archaea_40CM-2-53-6... at 78.71%
+1	468aa, >Archaea_Asgardarcha... at 77.99%
+2	471aa, >Archaea_Njordarchae... *
+3	465aa, >Archaea_TCS64|JAGHB... at 73.98%
+>Cluster 108
+0	470aa, >Archaea_JASMDC01|JA... *
+>Cluster 109
+0	470aa, >Bacteria_Lithacetig... *
+>Cluster 110
+0	468aa, >Archaea_JAOZGF01|JA... *
+>Cluster 111
+0	465aa, >Archaea_Caldarchaea... at 71.83%
+1	461aa, >Archaea_Nitrosospha... at 70.72%
+2	468aa, >Archaea_PSMU01|PSMU... *
+>Cluster 112
+0	468aa, >Archaea_Thermoprote... *
+>Cluster 113
+0	468aa, >Bacteria_Spirochaet... *
+>Cluster 114
+0	467aa, >Archaea_B14-G2|JAVC... *
+>Cluster 115
+0	433aa, >Bacteria_Fibrobacte... at 74.83%
+1	467aa, >Bacteria_PUNC01|JAX... *
+>Cluster 116
+0	465aa, >Archaea_Korarchaeal... *
+>Cluster 117
+0	465aa, >Archaea_Nanosalinal... *
+>Cluster 118
+0	465aa, >Archaea_Thorarchaea... *
+>Cluster 119
+0	465aa, >Bacteria_JACRDZ01|J... *
+>Cluster 120
+0	465aa, >Bacteria_Synergisto... *
+>Cluster 121
+0	463aa, >Archaea_Methanofast... *
+>Cluster 122
+0	463aa, >Archaea_Sigynarchae... *
+>Cluster 123
+0	460aa, >Archaea_UBA287|JAXH... at 71.09%
+1	463aa, >Bacteria_Caldiseric... *
+>Cluster 124
+0	462aa, >Archaea_Sulfolobale... *
+>Cluster 125
+0	461aa, >Archaea_B47-G6B|JAG... *
+>Cluster 126
+0	460aa, >Archaea_Thermoplasm... *
+>Cluster 127
+0	458aa, >Archaea_JASEFT01|JA... at 71.62%
+1	460aa, >Archaea_UBA186|DACJ... *
+>Cluster 128
+0	460aa, >Bacteria_UBP14|DIWU... *
+>Cluster 129
+0	459aa, >Archaea_Methanometh... *
+>Cluster 130
+0	459aa, >Archaea_Micrarchaea... *
+>Cluster 131
+0	459aa, >Archaea_Poseidonial... *
+>Cluster 132
+0	459aa, >Bacteria_CAIJMQ01|J... *
+1	457aa, >Bacteria_JAKLEM01|J... at 70.90%
+>Cluster 133
+0	458aa, >Bacteria_CG03|VMTH0... *
+>Cluster 134
+0	457aa, >Bacteria_UBA1439|JA... *
+>Cluster 135
+0	456aa, >Archaea_Helarchaeal... *
+>Cluster 136
+0	456aa, >Bacteria_RUG730|JAV... *
+>Cluster 137
+0	453aa, >Bacteria_TA06_A|JAO... *
+>Cluster 138
+0	451aa, >Bacteria_T1Sed10-12... *
+>Cluster 139
+0	441aa, >Bacteria_Patescibac... *
+>Cluster 140
+0	440aa, >Bacteria_UBA4055|DF... *
+>Cluster 141
+0	436aa, >Bacteria_Aerophobot... *
+>Cluster 142
+0	436aa, >Bacteria_JAFGBW01|J... *
+>Cluster 143
+0	435aa, >Bacteria_Arandabact... *
+>Cluster 144
+0	435aa, >Bacteria_Chlamydiot... *
+>Cluster 145
+0	434aa, >Bacteria_UBP6|CAJOF... *
+>Cluster 146
+0	416aa, >Archaea_Nanobdellal... *
+>Cluster 147
+0	405aa, >Bacteria_JAGOEH01|J... *
+>Cluster 148
+0	388aa, >Bacteria_Atribacter... *
+>Cluster 149
+0	259aa, >Bacteria_JAGOBX01|D... *
+>Cluster 150
+0	254aa, >Archaea_CALHIW01|JA... *
+>Cluster 151
+0	238aa, >Archaea_EX4484-205|... *
+>Cluster 152
+0	236aa, >Archaea_Bathyarchae... *
+>Cluster 153
+0	227aa, >Archaea_PWEA01|CP06... *
