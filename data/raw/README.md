@@ -11,3 +11,15 @@ Due to file size limitations, **some raw data files are not included in the repo
     ```bash
     wget ftp://ftp.ncbi.nlm.nih.gov/pub/COG/COG2024/data/COG2024-*.faa.gz
     wget ftp://ftp.ncbi.nlm.nih.gov/pub/COG/COG2024/data/cog-24.cog.csv
+    gunzip COGorg24.faa.gz
+
+### GTDB Representative Genome Metadata
+- **Files needed**:
+  - `GTDB-Bacteria-domain-GTDB-rep-metadata.tsv`
+  - `GTDB-Archaea-domain-GTDB-rep-metadata.tsv`
+- **Source**: [Genome Taxonomy Database (GTDB)](https://gtdb.ecogenomic.org/).
+- **Download instructions**:
+  ```bash
+  wget https://data.gtdb.ecogenomic.org/releases/release214/214.0/bac120_metadata.tsv 
+  wget https://data.gtdb.ecogenomic.org/releases/release214/214.0/ar53_metadata.tsv 
+
