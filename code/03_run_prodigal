@@ -1,0 +1,28 @@
+# what we need: 
+1. Run prodigal on all .fna genomes
+2. Rename output files to include accession + taxonomy
+3. Update fasta headers of .faa files so tree labels are meaningful 
+
+## create map files
+cut -f1,2 bacteria_repr.tsv | sed 's/GB_//' | sed 's/RS_//' > bacteria_map.txt
+cut -f1,2 archaea_repr.tsv | sed 's/GB_//' | sed 's/RS_//' > archaea_map.txt
+
+## prodigal loop
+
+### Archaea
+cd prodigal_output/archaea/ #create new directory
+mapfile="../../archaea_map.txt" #to get taxon
+domain="Archaea"
+for f in ../../archaea_dataset/data/*/*.fna; do acc=$(basename "$f" | cut -d'_' -f1,2); taxon=$(grep "$acc" "$mapfile" | cut -f2); filename="${domain}_${taxon}"; prodigal -i "$f" -a "${filename}.faa" -p single; done 
+
+### Bacteria
+newdomain="Bacteria" 
+mapfile2="../../bacteria_map.txt"
+for f in ../../bacteria_dataset/data/*/*.fna; do acc=$(basename "$f" | cut -d'_' -f1,2); taxon=$(grep "$acc" "$mapfile2" | cut -f2); filename="${newdomain}_${taxon}"; prodigal -i "$f" -a "${filename}.faa" -p single; done
+
+## Changing FASTA headers
+### Archaea
+for f in ../../prodigal_output/archaea/*.faa; do taxon=$(basename "$f" .faa); awk -v name="$taxon" '/^>/ {sub(/^>/, "", $1); print ">"name "|" $1;next} { print }' "$f" > "${taxon}_renamed.faa"; done
+
+### Bacteria
+for f in ../../prodigal_output/bacteria/*.faa; do taxon=$(basename "$f" .faa); awk -v name="$taxon" '/^>/ {sub(/^>/, "", $1); print ">"name "|" $1;next} { print }' "$f" > "${taxon}_renamed.faa"; done
