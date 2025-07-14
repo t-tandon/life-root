@@ -1,0 +1,57 @@
+## Steps: 
+1.  Perform first tree with FastTree
+2.	Visualise the result
+3.	Remove sequences that may be incorrect (e.g. extremely long branches)
+4.	Iterate until the tree looks OK
+5.	Reconstruct a tree using IQ-Tree with model “LG+G+C10” and 1000 ultrafast bootstrap replicates 
+
+
+## Extract best-matching protein IDs for each genome
+for f in *COG0055.table; do grep -v "^#" "$f" | awk '{print $1}' | head -n 1 | cut -d'|' -f2 >> "../best_hits/COG0055.ids"; done
+#extracts id in first line without #s
+
+## Extract sequences
+seqtk subseq arc_bact_renamed_files.faa COG0055.ids > COG0055.hits.faa
+
+## Remove redundancy
+cd-hit -i COG0055.hits.faa -o COG0055.rm.faa -c 0.7
+
+## Align with MAFFT linsi
+mafft-linsi COG0055.rm.faa > COG0055.faa.aligned
+
+### repeat for COG0056
+for f in *COG0056.table; do grep -v "^#" "$f" | awk '{print $1}' | head -n 1 >> "../best_hits/COG0056.ids"; done
+seqtk subseq arc_bact_renamed_files.faa COG0056.ids > COG0056.hits.faa
+cd-hit -i COG0056.hits.faa -o COG0056.rm.faa -c 0.7
+mafft-linsi COG0056.rm.faa > COG0056.faa.aligned
+
+## Build intermediate tree with FastTree
+FastTree COG0055.faa.aligned > COG0055.tree
+
+#identify long branches via iTol, placed them in long_branches_0055.txt and long_branches_0056.txt respectively
+seqkit grep -v -f long_branches_0055.txt COG0055.rm.faa > COG0055.cleaned.faa
+seqkit grep -v -f long_branches_0056.txt COG0056.rm.faa > COG0056.cleaned.faa
+
+#Add paralog name to the end of the file before using cat
+awk '/^>/ {print $0"|COG0055"; next} {print}' COG0055.cleaned.faa > COG0055.tag.faa
+#repeat for COG0056
+awk '/^>/ {print $0"|COG0056"; next} {print}' COG0056.cleaned.faa > COG0056.tag.faa
+
+#cat files
+cat COG0055.tag.faa COG0056.tag.faa > concat.tag.faa
+
+#align with mafft
+mafft-linsi concat.tag.faa > concat.aln.faa
+
+#visual with fasttree
+FastTree concat.aln.faa > concat.tag.tree
+
+#check with itol 
+#Generally, the clusters are bacteria COG0056, bacteria COG0055, archaea 0055 and archaea 0056. Some overlap, may be due to artefacts and/or HGT
+#Some identical sequences also cluster together
+ 
+#tree reconstruction with iqtree
+iqtree -s concat.aln.faa -m MFP -bb 1000 -nt AUTO
+#Best-fit model: LG+R8 chosen according to BIC
+
+
