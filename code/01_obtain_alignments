@@ -1,7 +1,6 @@
 # Step 1: Obtain alignments
 
 ## Extract COG Ids 
-```bash
   wget https://ftp.ncbi.nlm.nih.gov/pub/COG/COG2024/data/cog-24.cog.csv
   grep COG0055 cog-24.cog.csv | cut -d',' -f3 > COG0055.ids
   grep COG0056 cog-24.cog.csv | cut -d',' -f3 > COG0056.ids
