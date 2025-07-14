@@ -7,9 +7,8 @@ Due to file size limitations, **raw data files are not included in the repositor
   - `COGorg-2024.faa` – All protein sequences
   - `cog-20.cog.csv` – Functional annotations
  - **Source**: [NCBI FTP](https://ftp.ncbi.nlm.nih.gov/pub/COG/COG2020/data/)
+ - **Downloaded on:** June 2025
  - **Download instructions**:
     ```bash
-    wget ftp://ftp.ncbi.nlm.nih.gov/pub/COG/COG2020/data/COG2020-*.faa.gz
-    wget ftp://ftp.ncbi.nlm.nih.gov/pub/COG/COG2020/data/cog-20.cog.csv    
-
-
+    wget ftp://ftp.ncbi.nlm.nih.gov/pub/COG/COG2024/data/COG2024-*.faa.gz
+    wget ftp://ftp.ncbi.nlm.nih.gov/pub/COG/COG2024/data/cog-24.cog.csv
