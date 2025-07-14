@@ -1,9 +1,6 @@
 # HMM Search Results
 
-This folder contains the best hits obtained by Hidden Markov Model (HMM) search results across genome datasets. 
-
-### Contents
-
+This folder contains examples of Hidden Markov Model (HMM) search results across genome datasets. 
 
 ### Tools Used
 
