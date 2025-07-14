@@ -1,0 +1,17 @@
+## Build HMMER profiles
+hmmbuild COG0055.hmm COG0055.faa.aligned
+hmmbuild COG0056.hmm COG0056.faa.aligned
+
+## create new directory
+mkdir hmm_search
+cd hmm_search/
+#search loop
+for f in ../prodigal_output/archaea_renamed/*.faa ../prodigal_output/bacteria_renamed/*.faa; do taxon=$(basename "$f" .faa); hmmsearch --tblout "${taxon}_COG0055.table" "../COG0055.hmm" "$f"; hmmsearch --tblout "${taxon}_COG0056.table" "../COG0056.hmm" "$f"; done
+
+#output is of the form: Archaea_Odinarchaeales_renamed_COG0055.table  Bacteria_Fusobacteriota_renamed_COG0055.table
+
+#can rename files with:
+for f in *renamed*.table; do newname=$(echo "$f" | sed 's/_renamed//'); mv "$f" "$newname"; done
+
+#new output: 
+Archaea_Korarchaeales_COG0055.table            
