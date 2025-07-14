@@ -1,0 +1,15 @@
+#                                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                 ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Archaea_JASLWR01|JASLWR010000019.1_46 -          COG0056.faa          -            1.5e-50  169.9   0.0   1.7e-50  169.7   0.0   1.0   1   0   0   1   1   1   1 -
+Archaea_JASLWR01|JASLWR010000019.1_45 -          COG0056.faa          -            7.9e-28   94.8   0.2   1.4e-18   64.2   0.0   2.2   2   0   0   2   2   2   2 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../COG0056.hmm
+# Target file:     ../prodigal_output/archaea_renamed/Archaea_JASLWR01_renamed.faa
+# Option settings: hmmsearch --tblout Archaea_JASLWR01_renamed_COG0056.table ../COG0056.hmm ../prodigal_output/archaea_renamed/Archaea_JASLWR01_renamed.faa 
+# Current dir:     /science-nfs-sys/vsm01/users/2221314/tree_of_life_project/hmm_search
+# Date:            Sat Jun  7 17:30:28 2025
+# [ok]
